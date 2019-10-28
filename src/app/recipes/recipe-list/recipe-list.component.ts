@@ -9,7 +9,8 @@ import {Recipe} from '../recipe.model';
 export class RecipeListComponent implements OnInit {
 
   recipes: Recipe[] = [
-    new Recipe('Test Recipe', 'This is simply a test', 'gg.gg/recipe_new')
+    new Recipe('Test Recipe', 'This is simply a test', 'http://localhost/images/recipe.jpeg'),
+    new Recipe('Test Recipe', 'This is simply a test', 'http://localhost/images/recipe.jpeg')
   ];
 
   constructor() {
